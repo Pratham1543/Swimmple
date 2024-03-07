@@ -7,7 +7,7 @@ import Awrapper from "./Awrapper";
 const AboutCard = () => {
   return (
     <>
-      <section className="aboutHome">
+      <section id="#Hservice" className="aboutHome">
         <div className="container flexSB">
           <div className="left row">
             <img src="./images/about.webp" alt="" />
@@ -27,6 +27,10 @@ const AboutCard = () => {
                     <div className="text">
                       <h2>{val.title}</h2>
                       <p>{val.desc}</p>
+                      <p>{val.desc2}</p>
+                      <p>{val.desc3}</p>
+                      <p>{val.desc4}</p>
+                      <p>{val.desc5}</p>
                     </div>
                   </div>
                 );

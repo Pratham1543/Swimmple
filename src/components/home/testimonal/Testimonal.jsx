@@ -6,7 +6,7 @@ import "./style.css";
 const Testimonal = () => {
   return (
     <>
-      <section className="testimonal padding">
+      <section id="Testi" className="testimonal padding">
         <div className="container">
           <Heading title="What Does a Session looks like" />
 

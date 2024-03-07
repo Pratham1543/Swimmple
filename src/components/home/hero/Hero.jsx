@@ -8,10 +8,7 @@ const Hero = () => {
       <section className="hero">
         <div className="container">
           <div className="row">
-            <Heading
-              subtitle="WELCOME TO SWIMPLE"
-              title="Making swimming simple through sport science and data"
-            />
+            <Heading title="Making swimming simple through sport science and data" />
             <p>
               "We are a sports science lab in India specializing in swimming
               performance consulting and swim analytics systems."
@@ -20,6 +17,7 @@ const Hero = () => {
               <button className="primary-btn">
                 GET STARTED NOW <i className="fa fa-long-arrow-alt-right"></i>
               </button>
+
               <button>
                 VIEW COURSE <i className="fa fa-long-arrow-alt-right"></i>
               </button>

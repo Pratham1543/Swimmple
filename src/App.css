@@ -30,7 +30,7 @@ body {
 }
 .icon:hover {
   cursor: pointer;
-  background-color: #158e84;
+  background-color: #234eac;
   color: #fff;
 }
 a {
@@ -45,7 +45,7 @@ li {
 button {
   padding: 17px 30px;
   background-color: #fff;
-  color: #1eb2a6;
+  color: #234eac;
   font-weight: 600;
   border: none;
   margin: 30px 10px 0 0;
@@ -61,7 +61,7 @@ button:hover {
   box-shadow: none;
 }
 .primary-btn {
-  background-color: #1eb2a6;
+  background-color: #234eac;
   color: #fff;
 }
 
@@ -73,7 +73,7 @@ button:hover {
 #heading h3 {
   font-weight: 600;
   letter-spacing: 1px;
-  color: #158e84;
+  color: #234eac;
   text-transform: uppercase;
 }
 #heading h1 {
@@ -129,12 +129,12 @@ p {
 .outline-btn {
   margin: 0;
   box-shadow: none;
-  border: 2px solid #158e84;
+  border: 2px solid #234eac;
   width: 100%;
   transition: 0.5s;
 }
 .outline-btn:hover {
-  background-color: #158e84;
+  background-color: #234eac;
   color: #fff;
 }
 .grid3 {

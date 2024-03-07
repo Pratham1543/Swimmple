@@ -3,13 +3,21 @@ export const homeAbout = [
     id: 1,
     cover: "https://img.icons8.com/dotty/80/000000/storytelling.png",
     title: "Swim Analytics Systems (2D)",
-    desc: "Fully calibrated 8 camera system Tracks minute movements of swimmers. Live delay feed for instant feedback. Measures start, turns and strokes. Fully automated and non invasive. AMC mandatory with system.",
+    desc: "Fully calibrated 8 camera system Tracks minute movements of swimmers.   ",
+    desc2: "Live delay feed for instant feedback.",
+    desc3: "Measures start, turns and strokes.",
+    desc4: "Fully automated and non invasive.",
+    desc5: "AMC mandatory with system.",
   },
   {
     id: 1,
     cover: "https://img.icons8.com/ios/80/000000/diploma.png",
     title: "Swimming performance Consulting",
-    desc: "3 days / session / athlete. 1:1 session with sports scientist. Comprehensive report across swim strokes. Clear actionable plan for improvement. Guaranteed performance improvement ",
+    desc: "3 days / session / athlete.    ",
+    desc2: "1:1 session with sports scientist.",
+    desc3: "Comprehensive report across swim strokes.",
+    desc4: "Clear actionable plan for improvement.",
+    desc5: "Guaranteed performance improvement .",
   },
 ];
 export const awrapper = [

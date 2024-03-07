@@ -1,4 +1,5 @@
 import React from "react";
+import "./header.css";
 
 const Head = () => {
   return (
@@ -6,7 +7,7 @@ const Head = () => {
       <section className="head">
         <div className="container flexSB">
           <div className="logo">
-            <h1>SWIMPLE</h1>
+            <img src="../../../images/logo.png" className="logo" alt="" />
           </div>
 
           <div className="social">

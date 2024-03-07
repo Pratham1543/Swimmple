@@ -16,22 +16,23 @@ const Header = () => {
             onClick={() => setClick(false)}
           >
             <li>
+              <a href="#Hteam">Home</a>
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/courses">Services</Link>
+              <a href="#Hservice">Services</a>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <a href="#Habout">About</a>
             </li>
             <li>
-              <Link to="/team">Team</Link>
+              <a href="#Hteam">Team</a>
             </li>
             <li>
-              <Link to="/pricing">Pricing</Link>
+              <a href="#Hprice">Pricing</a>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <a href="#Hcontact">Contact</a>
             </li>
           </ul>
           <div className="start">

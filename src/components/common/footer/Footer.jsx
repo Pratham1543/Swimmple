@@ -5,7 +5,7 @@ import "./footer.css";
 const Footer = () => {
   return (
     <>
-      <section className="newletter">
+      <section id="#Hcontact" className="newletter">
         <div className="container flexSB">
           <div className="left row">
             <h1>Get in touch - Stay tune and get the latest update</h1>
@@ -100,7 +100,7 @@ const Footer = () => {
       </footer>
       <div className="legal">
         <p>
-          Copyright ©2024 All rights reserved | This template is made with{" "}
+          Copyright ©2024 All rights reserved | This website is made with{" "}
           <i className="fa fa-heart"></i> by Swimple
         </p>
       </div>

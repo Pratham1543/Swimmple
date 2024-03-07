@@ -7,7 +7,7 @@ import Heading from "../common/heading/Heading";
 const Team = () => {
   return (
     <>
-      <section className="team padding">
+      <section id="Hteam" className="team padding">
         <Heading title="Swimple Team" />
         <div className="container grid">
           <TeamCard />
