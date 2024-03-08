@@ -9,6 +9,12 @@ const Hero = () => {
       behavior: "smooth",
     });
   };
+  const scrollToTestimoniall = () => {
+    var element = window.document.getElementById("Hprice");
+    element.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
 
   return (
     <>
@@ -25,7 +31,7 @@ const Hero = () => {
                 GET STARTED NOW <i className="fa fa-long-arrow-alt-right"></i>
               </button>
 
-              <button>
+              <button onClick={scrollToTestimoniall}>
                 VIEW COURSE <i className="fa fa-long-arrow-alt-right"></i>
               </button>
             </div>
