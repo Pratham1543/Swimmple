@@ -5,7 +5,7 @@ import "./footer.css";
 const Footer = () => {
   return (
     <>
-      <section id="#Hcontact" className="newletter">
+      <section id="Hcontact" className="newletter">
         <div className="container flexSB">
           <div className="left row">
             <h1>Get in touch - Stay tune and get the latest update</h1>

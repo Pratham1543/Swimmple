@@ -6,7 +6,7 @@ import { coursesCard } from "../../dummydata";
 const HAbout = () => {
   return (
     <>
-      <section className="homeAbout">
+      <section id="Habout" className="homeAbout">
         <div className="container">
           <Heading title="How much improvement can a swimmer expect?" />
 
@@ -18,7 +18,7 @@ const HAbout = () => {
                   <div className="content flex">
                     <div className="text">
                       <p>{val.coursesName}</p>
-                
+
                       <p>{val.coursesName2}</p>
                       <p>{val.coursesName3}</p>
                       <p>{val.coursesName4}</p>

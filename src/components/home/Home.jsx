@@ -7,12 +7,13 @@ import Testimonal from "./testimonal/Testimonal";
 import HTeam from "./HTeam";
 
 const Home = () => {
+  const testimonialSectionRef = React.useRef(null);
   return (
     <>
-      <Hero />
+      <Hero testimonialSectionRef={testimonialSectionRef} />
       <AboutCard />
       <HAbout />
-      <Testimonal />
+      <Testimonal ref={testimonialSectionRef} />
       <Hprice />
       <HTeam />
     </>

@@ -12,6 +12,11 @@ body {
 .container {
   max-width: 85%;
   margin: auto;
+  margin-bottom: 0px;
+}
+
+.heading {
+  margin-bottom: 0px;
 }
 .flexSB {
   display: flex;
@@ -40,8 +45,12 @@ li {
   list-style-type: none;
 }
 .row {
-  width: 50%;
+  width: 60%;
 }
+.row1 {
+  width: 40%;
+}
+
 button {
   padding: 17px 30px;
   background-color: #fff;
@@ -143,7 +152,7 @@ p {
   grid-gap: 10px;
 }
 .padding {
-  padding: 80px 0;
+  padding: 20px 0;
 }
 .shadow {
   box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);

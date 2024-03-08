@@ -1,6 +1,11 @@
 .aboutHome {
   height: auto;
 }
+
+.flexS {
+  display: flex;
+  align-items: center;
+}
 .aboutHome #heading {
   text-align: left;
   padding: 0;
@@ -11,10 +16,12 @@
   object-fit: cover;
 }
 .aboutHome .right {
-  padding: 80px 50px;
+  padding: 30px 50px;
+  padding-bottom: 50px;
+  padding-top: 0px;
 }
 .aboutHome .items {
-  margin-top: 50px;
+  margin-top: 0px;
 }
 .aboutHome .item {
   background-color: #fff;
@@ -24,7 +31,7 @@
 }
 .aboutHome .img {
   width: 200px;
-  padding-right: 20px;
+  padding-right: 60px;
 }
 .aboutHome img {
   width: 70px;
