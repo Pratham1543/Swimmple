@@ -3,9 +3,8 @@ import Heading from "../../common/heading/Heading";
 import "./Hero.css";
 
 const Hero = () => {
-  var element = window.document.getElementById("Testi");
-
   const scrollToTestimonial = () => {
+    var element = window.document.getElementById("Testi");
     element.scrollIntoView({
       behavior: "smooth",
     });
