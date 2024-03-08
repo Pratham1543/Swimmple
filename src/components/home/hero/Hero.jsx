@@ -3,14 +3,12 @@ import Heading from "../../common/heading/Heading";
 import "./Hero.css";
 
 const Hero = () => {
-  const testimonialSectionRef = React.useRef(null);
+  var element = window.document.getElementById("Testi");
 
   const scrollToTestimonial = () => {
-    if (testimonialSectionRef.current) {
-      testimonialSectionRef.current.scrollIntoView({
-        behavior: "smooth",
-      });
-    }
+    element.scrollIntoView({
+      behavior: "smooth",
+    });
   };
 
   return (

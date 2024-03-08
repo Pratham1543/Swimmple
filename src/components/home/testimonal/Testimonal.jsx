@@ -3,10 +3,10 @@ import { testimonal } from "../../../dummydata";
 import Heading from "../../common/heading/Heading";
 import "./style.css";
 
-const Testimonal = React.forwardRef((props, ref) => {
+const Testimonal = () => {
   return (
     <>
-      <section ref={ref} id="Testi" className="testimonal padding">
+      <section id="Testi" className="testimonal padding">
         <div className="container">
           <Heading title="What Does a Session looks like" />
 
@@ -33,6 +33,6 @@ const Testimonal = React.forwardRef((props, ref) => {
       </section>
     </>
   );
-});
+};
 
 export default Testimonal;

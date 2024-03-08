@@ -18,7 +18,7 @@
 /*--------head------------*/
 /*--------header------------*/
 header {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(47, 62, 111, 0.429);
   margin: 0 30px;
 }
 header .nav {
@@ -36,7 +36,7 @@ header ul li a {
   transition: 0.5s;
 }
 header ul li a:hover {
-  color: #234eac;
+  color: #1a3c86;
 }
 .start {
   background-color: #234eac;
