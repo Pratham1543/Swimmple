@@ -92,6 +92,9 @@ header ul li a:hover {
     justify-content: space-between;
     align-items: center;
   }
+  .logo img {
+    height: 75px;
+  }
 
   .head .icon {
     width: 35px;
@@ -122,5 +125,11 @@ header ul li a:hover {
     width: 100%;
     background-color: #234eac;
     padding-top: 10px; /* Adjust padding for mobile */
+  }
+}
+
+@media screen and (max-width: 396px) {
+  .logo img {
+    height: 61px;
   }
 }
