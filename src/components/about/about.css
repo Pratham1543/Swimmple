@@ -1,5 +1,6 @@
 .aboutHome {
   height: auto;
+  margin-top: 5%;
 }
 
 .flexS {
@@ -78,7 +79,7 @@
 /*----------awrapper------------*/
 @media screen and (max-width: 768px) {
   .aboutHome {
-    margin-top: 105px;
+    margin-top: 5%;
   }
   .aboutHome .container {
     flex-direction: column;
