@@ -125,8 +125,8 @@ header ul li a:hover {
     left: 0;
     width: 100%;
     background-color: #234eac;
-    padding-top: 10px; 
-    z-index: 1;/* Adjust padding for mobile */
+    padding-top: 10px;
+    z-index: 2; /* Adjust padding for mobile */
   }
 }
 
