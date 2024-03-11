@@ -20,6 +20,9 @@
 /*--------head------------*/
 
 /*--------header------------*/
+nav {
+  margin-left: 0%;
+}
 header {
   background-color: rgba(47, 62, 111, 0.429);
   margin: 0 30px;
