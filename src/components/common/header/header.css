@@ -20,9 +20,7 @@
 /*--------head------------*/
 
 /*--------header------------*/
-nav {
-  margin-left: 0%;
-}
+
 header {
   background-color: rgba(47, 62, 111, 0.429);
   margin: 0 30px;
@@ -127,7 +125,8 @@ header ul li a:hover {
     left: 0;
     width: 100%;
     background-color: #234eac;
-    padding-top: 10px; /* Adjust padding for mobile */
+    padding-top: 10px; 
+    z-index: 1;/* Adjust padding for mobile */
   }
 }
 
