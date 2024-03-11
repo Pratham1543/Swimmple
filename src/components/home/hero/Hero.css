@@ -59,8 +59,8 @@
 @media screen and (max-width: 480px) {
   /* Further adjustments for smaller screens like mobile phones */
   .hero {
-    padding-top: 60%; /* Adjust padding top */
-    height: 100px; /* Adjust height */
+    padding-top: 20%; /* Adjust padding top */
+    height: 35rem; /* Adjust height */
   }
 
   .margin {

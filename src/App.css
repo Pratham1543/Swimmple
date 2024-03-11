@@ -1,23 +1,22 @@
- #heading h3 {
-    font-weight: 600;
-    letter-spacing: 1px;
-    color: #234eac;
-    text-transform: uppercase;
-  }
-  #heading h1 {
-    font-size: 35px;
-    margin: 20px 0;
-    font-weight: 600;
-    text-transform: capitalize;
-  }
+#heading h3 {
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #234eac;
+  text-transform: uppercase;
+}
+#heading h1 {
+  font-size: 35px;
+  margin: 20px 0;
+  font-weight: 600;
+  text-transform: capitalize;
+}
 
-  #heading p {
-    font-size: 25px;
-  }
+#heading p {
+  font-size: 25px;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 
 @layer base {
   :root {
@@ -346,7 +345,12 @@ p {
   .container {
     max-width: 100%;
   }
-
+  button {
+    padding: 10px 20px; /* Further reduced padding for smaller screens */
+    font-size: 12px; /* Further reduced font size */
+    margin: 15px 5px 0 0;
+    /* Adjusted margin */
+  }
   .heading h1 {
     font-size: 10px;
   }
