@@ -312,7 +312,8 @@ p {
 
   .grid,
   .grid2,
-  .grid3 {
+  .grid3,
+  .grid6 {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
   }
