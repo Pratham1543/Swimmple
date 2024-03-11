@@ -27,7 +27,7 @@ const Hero = () => {
               "We are a sports science lab in India specializing in swimming
               performance consulting and swim analytics systems."
             </p>
-            <div className="button">
+            <div className="button flexSB">
               <button className="primary-btn" onClick={scrollToTestimonial}>
                 GET STARTED NOW <i className="fa fa-long-arrow-alt-right"></i>
               </button>

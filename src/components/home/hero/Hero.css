@@ -65,6 +65,11 @@
   .hero #heading h3 {
     color: #fff; /* Change color of heading */
   }
+  .row .button {
+    text-align: center;
+    padding-left: 0%;
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 480px) {
