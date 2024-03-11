@@ -124,7 +124,8 @@ footer .last i {
 /* Add appropriate media queries for responsiveness */
 @media screen and (max-width: 768px) {
   .newletter {
-    padding: 30px 0; /* Adjust padding for smaller screens */
+    padding: 30px 0;
+    /* Adjust padding for smaller screens */
   }
 
   .newletter .right,
@@ -142,14 +143,24 @@ footer .last i {
   }
 
   .footer .container {
-    grid-template-columns: repeat(1, 1fr); /* Change grid template columns to one column for smaller screens */
-    grid-gap: 20px; /* Adjust grid gap for smaller screens */
+    grid-template-columns: repeat(
+      1,
+      1fr
+    ); /* Change grid template columns to one column for smaller screens */
+    grid-gap: 20px;
+    /* Adjust grid gap for smaller screens */
   }
-
+  footer .container {
+    padding-left: 25px;
+  }
   .newletter .container,
-  .newletter.flexSB{
-    grid-template-columns: repeat(1, 1fr); /* Change grid template columns to one column for smaller screens */
-    grid-gap: 20px; 
+  .newletter.flexSB {
+    grid-template-columns: repeat(
+      1,
+      1fr
+    ); /* Change grid template columns to one column for smaller screens */
+    grid-gap: 20px;
+    margin-left: 20px;
   }
   .footer h3 {
     margin-bottom: 30px; /* Adjust margin for smaller screens */
