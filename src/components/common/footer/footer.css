@@ -160,7 +160,6 @@ footer .last i {
       1fr
     ); /* Change grid template columns to one column for smaller screens */
     grid-gap: 20px;
-    margin-left: 20px;
   }
   .footer h3 {
     margin-bottom: 30px; /* Adjust margin for smaller screens */
