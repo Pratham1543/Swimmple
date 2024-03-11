@@ -46,3 +46,47 @@
   background-color: #fff;
   color: #234eac;
 }
+/* Add appropriate media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .testimonal .items {
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+
+  .testimonal img {
+    width: 80px; /* Adjust image width for smaller screens */
+    height: 80px; /* Adjust image height for smaller screens */
+  }
+
+  .testimonal i {
+    left: 50%; /* Center the icon horizontally */
+    transform: translateX(-50%); /* Center the icon horizontally */
+  }
+
+  .testimonal .name h2 {
+    font-size: 18px; /* Adjust font size for smaller screens */
+  }
+
+  .testimonal p {
+    margin-top: 15px; /* Adjust margin for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Further adjustments for smaller screens like mobile phones */
+  .testimonal .items {
+    padding: 15px; /* Adjust padding for smaller screens */
+  }
+
+  .testimonal img {
+    width: 60px; /* Adjust image width for smaller screens */
+    height: 60px; /* Adjust image height for smaller screens */
+  }
+
+  .testimonal .name h2 {
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+
+  .testimonal p {
+    margin-top: 10px; /* Adjust margin for smaller screens */
+  }
+}

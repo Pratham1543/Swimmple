@@ -6,7 +6,7 @@ import { coursesCard } from "../../dummydata";
 const HAbout = () => {
   return (
     <>
-      <section id="Habout" className="homeAbout">
+      <section id="Habout" className="aboutHome">
         <div className="container">
           <Heading title="How much improvement can a swimmer expect?" />
 

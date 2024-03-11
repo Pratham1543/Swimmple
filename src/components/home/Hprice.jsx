@@ -32,7 +32,6 @@ function PriceTable() {
       <section id="Hprice" className="hprice padding">
         <Heading subtitle="OUR PRICING" title="Pricing & Packages" />
         <div className="price container">
-
           <Table>
             <TableHeader>
               <TableRow>

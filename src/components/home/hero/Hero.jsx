@@ -22,6 +22,7 @@ const Hero = () => {
         <div className="container">
           <div className="row">
             <Heading title="Making swimming simple through sport science and data" />
+
             <p>
               "We are a sports science lab in India specializing in swimming
               performance consulting and swim analytics systems."

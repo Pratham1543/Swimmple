@@ -50,3 +50,53 @@
 }
 
 /*--------------faq-------------*/
+/* Add appropriate media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .price .items {
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+
+  .price .pricc {
+    flex-direction: column; /* Adjust flex direction for smaller screens */
+  }
+
+  .price h1 {
+    font-size: 40px; /* Adjust font size for smaller screens */
+    margin: 15px 0; /* Adjust margin for smaller screens */
+  }
+
+  .price h1 span {
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+
+  .price p {
+    margin: 20px 0; /* Adjust margin for smaller screens */
+  }
+
+  .faq .container {
+    max-width: 90%; /* Adjust max-width for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Further adjustments for smaller screens like mobile phones */
+  .price .items {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .price h1 {
+    font-size: 30px; /* Adjust font size for smaller screens */
+  }
+
+  .price h1 span {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  .price p {
+    margin: 15px 0; /* Adjust margin for smaller screens */
+  }
+
+  .faq .container {
+    max-width: 100%; /* Adjust max-width for smaller screens */
+  }
+}

@@ -54,3 +54,49 @@
   background-color: #234eac;
   color: #fff;
 }
+
+/* Add appropriate media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .team .details {
+    padding: 15px; /* Adjust padding for smaller screens */
+  }
+
+  .team .details h2 {
+    font-size: 18px; /* Adjust font size for smaller screens */
+  }
+
+  .team .details p {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  .overlay {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .overlay i {
+    margin: 2px; /* Adjust margin for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Further adjustments for smaller screens like mobile phones */
+  .team .details {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .team .details h2 {
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+
+  .team .details p {
+    font-size: 12px; /* Adjust font size for smaller screens */
+  }
+
+  .overlay {
+    padding: 8px; /* Adjust padding for smaller screens */
+  }
+
+  .overlay i {
+    margin: 1px; /* Adjust margin for smaller screens */
+  }
+}

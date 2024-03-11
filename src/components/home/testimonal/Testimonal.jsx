@@ -10,7 +10,7 @@ const Testimonal = () => {
         <div className="container">
           <Heading title="What Does a Session looks like" />
 
-          <div className="content grid2">
+          <div className="content grid4">
             {testimonal.map((val) => (
               <div className="items shadow">
                 <div className="box flex">

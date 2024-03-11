@@ -1,6 +1,23 @@
+ #heading h3 {
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #234eac;
+    text-transform: uppercase;
+  }
+  #heading h1 {
+    font-size: 35px;
+    margin: 20px 0;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+
+  #heading p {
+    font-size: 25px;
+  }
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 @layer base {
   :root {
@@ -74,7 +91,6 @@
     @apply bg-background text-foreground;
   }
 }
-
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 * {
   padding: 0;
@@ -212,6 +228,12 @@ p {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
 }
+
+.grid4 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
 .outline-btn {
   margin: 0;
   box-shadow: none;
@@ -235,7 +257,134 @@ p {
   box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
   background-color: #fff;
 }
+
+/* Add appropriate media queries for responsiveness */
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 90%;
+  }
+}
+
 @media screen and (max-width: 768px) {
+  /* Adjustments for tablet screens and smaller */
+  button {
+    padding: 10px 20px; /* Further reduced padding for smaller screens */
+    font-size: 12px; /* Further reduced font size */
+    margin: 15px 5px 0 0;
+    /* Adjusted margin */
+  }
+
+  .row .button {
+    padding-left: 35px;
+    margin-bottom: 40px;
+    align-items: center;
+  }
+
+  button i {
+    margin-left: 8px; /* Further reduced icon margin */
+  }
+  #heading h3 {
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #234eac;
+    text-transform: uppercase;
+  }
+  #heading h1 {
+    font-size: 35px;
+    margin: 20px 0;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+
+  #heading p {
+    font-size: 25px;
+  }
+  .container {
+    max-width: 95%;
+  }
+
+  .heading h1 {
+    font-size: 5px;
+  }
+
+  .back {
+    padding-top: 50%;
+  }
+
+  .grid,
+  .grid2,
+  .grid3 {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+
+  .grid4 {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    row-gap: 20px;
+  }
+  .awrapper .grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    row-gap: 0px;
+  }
+  .row,
+  .row1 {
+    width: 100%;
+  }
+
+  .margin {
+    margin-top: 10%;
+  }
+  .awrapper .flex {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Adjustments for mobile phones */
+  .container {
+    max-width: 100%;
+  }
+
+  .heading h1 {
+    font-size: 10px;
+  }
+
+  .back {
+    padding-top: 60%;
+  }
+
+  .grid,
+  .grid2,
+  .grid3 {
+    grid-template-columns: 1fr;
+  }
+  .grid4 {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    row-gap: 50px;
+  }
+
+  .awrapper .grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0px;
+    row-gap: 0px;
+  }
+
+  .row,
+  .row1 {
+    width: 100%;
+  }
+  .awrapper .flex {
+    padding: 0px;
+  }
+  .margin {
+    margin-top: 15%;
+  }
+}
+
+/*@media screen and (max-width: 768px) {
   .grid2,
   .grid3,
   .grid {
@@ -246,4 +395,4 @@ p {
     padding-top: 50%;
     height: 80vh;
   }
-}
+}*/

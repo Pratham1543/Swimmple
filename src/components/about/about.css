@@ -77,13 +77,37 @@
 }
 /*----------awrapper------------*/
 @media screen and (max-width: 768px) {
+  .aboutHome {
+    margin-top: 105px;
+  }
   .aboutHome .container {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   .aboutHome .row {
     width: 100%;
+    padding: 0%;
+    flex-direction: row;
+  }
+  .flexS {
+    flex-direction: column;
+  }
+  .right .text {
+    padding-left: 0px;
+  }
+
+  .right img {
+    display: none;
+  }
+  .aboutHome img {
+    margin-top: 20px;
+    margin-bottom: 10px;
   }
   .awrapper {
     height: 50vh;
+    margin-top: 25px;
+  }
+  .awrapper .box {
+    margin-top: 35px;
+    padding: 12px 0;
   }
 }
