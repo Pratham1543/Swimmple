@@ -5,16 +5,18 @@ import Hero from "./hero/Hero";
 import Hprice from "./Hprice";
 import Testimonal from "./testimonal/Testimonal";
 import HTeam from "./HTeam";
+import GoToTopButton from "./GoToTopButton";
 
 const Home = () => {
   return (
     <>
-      <Hero  />
+      <Hero />
       <AboutCard />
       <HAbout />
       <Testimonal />
       <Hprice />
       <HTeam />
+      <GoToTopButton />
     </>
   );
 };
