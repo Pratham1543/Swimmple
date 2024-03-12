@@ -26,3 +26,9 @@
   background-color: #1a3c85;
   color: #ffffff; /* Darker background color on hover */
 }
+
+@media screen and (max-width: 768px) {
+  .goToTopButton i {
+    padding-right: 20%;
+  }
+}
