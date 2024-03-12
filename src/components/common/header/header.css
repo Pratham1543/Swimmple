@@ -23,7 +23,8 @@
 
 header {
   background-color: rgba(47, 62, 111, 0.429);
-  margin: 0 30px;
+  margin: 0 0px;
+  padding-left: 40px;
 }
 
 header .nav {

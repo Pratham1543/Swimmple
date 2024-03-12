@@ -273,6 +273,13 @@ p {
     /* Adjusted margin */
   }
 
+  .flexSBD {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .row .button {
     padding-left: 35px;
     margin-bottom: 40px;
