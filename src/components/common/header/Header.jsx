@@ -25,12 +25,24 @@ const Header = () => {
       <header>
         <nav className="flexSB">
           <ul className={click ? "mobile-nav" : "flexSB"}>
-            <li>Home</li>
-            <li>Services</li>
-            <li>About</li>
-            <li>Team</li>
-            <li>Pricing</li>
-            <li>Contact</li>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/courses">Service</Link>
+            </li>
+            <li>
+              <Link to="/about">About</Link>
+            </li>
+            <li>
+              <Link to="/team">Team</Link>
+            </li>
+            <li>
+              <Link to="/pricing">Pricing</Link>
+            </li>
+            <li>
+              <Link to="/contact">Contact</Link>
+            </li>
           </ul>
           <div className="start">
             <div className="button">BOOK A SESSION</div>
