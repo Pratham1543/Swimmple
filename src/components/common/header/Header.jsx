@@ -25,48 +25,12 @@ const Header = () => {
       <header>
         <nav className="flexSB">
           <ul className={click ? "mobile-nav" : "flexSB"}>
-            <li>
-              <a href="/" onClick={handleClick}>
-                Home
-              </a>
-            </li>
-            <li>
-              <a
-                href="#Hservice"
-                onClick={(e) => handleSmoothScroll(e, "Hservice")}
-              >
-                Services
-              </a>
-            </li>
-            <li>
-              <a
-                href="#Habout"
-                onClick={(e) => handleSmoothScroll(e, "Habout")}
-              >
-                About
-              </a>
-            </li>
-            <li>
-              <a href="#Hteam" onClick={(e) => handleSmoothScroll(e, "Hteam")}>
-                Team
-              </a>
-            </li>
-            <li>
-              <a
-                href="#Hprice"
-                onClick={(e) => handleSmoothScroll(e, "Hprice")}
-              >
-                Pricing
-              </a>
-            </li>
-            <li>
-              <a
-                href="#Hcontact"
-                onClick={(e) => handleSmoothScroll(e, "Hcontact")}
-              >
-                Contact
-              </a>
-            </li>
+            <li>Home</li>
+            <li>Services</li>
+            <li>About</li>
+            <li>Team</li>
+            <li>Pricing</li>
+            <li>Contact</li>
           </ul>
           <div className="start">
             <div className="button">BOOK A SESSION</div>
