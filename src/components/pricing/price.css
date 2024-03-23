@@ -3,7 +3,6 @@
   text-align: left;
 }
 
-
 .price {
   margin-top: 50px;
 }
@@ -60,7 +59,9 @@
   .price .items {
     padding: 20px; /* Adjust padding for smaller screens */
   }
-
+  .price .grid2 {
+    grid-template-columns: repeat(1, 1fr);
+  }
   .price .pricc {
     flex-direction: column; /* Adjust flex direction for smaller screens */
   }

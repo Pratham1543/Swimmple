@@ -106,7 +106,7 @@ body {
   margin: auto;
   margin-bottom: 0px;
 }
-.details .desc{
+.details .desc {
   display: none;
 }
 .heading {
@@ -322,7 +322,7 @@ p {
     padding-right: 5%;
     padding-left: 5%;
   }
-
+  
   .grid,
   .grid2,
   .grid3,
