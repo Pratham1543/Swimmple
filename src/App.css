@@ -359,6 +359,13 @@ p {
   .container {
     max-width: 100%;
   }
+
+  #heading h1 {
+    font-size: 27px;
+    margin: 20px 0;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
   button {
     padding: 10px 20px; /* Further reduced padding for smaller screens */
     font-size: 12px; /* Further reduced font size */
