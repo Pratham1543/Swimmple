@@ -7,7 +7,7 @@ const HAbout = () => {
   return (
     <>
       <section id="Habout" className="aboutHome">
-        <div className="container">
+        <div className="container bb">
           <Heading title="How much improvement can a swimmer expect?" />
 
           <div className="coursesCard">

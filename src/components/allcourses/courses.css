@@ -48,14 +48,21 @@
   border-radius: 50%;
   margin-right: 20px;
 }
+
+.bb #heading h1 {
+  font-size: 45px;
+  margin: 20px 0;
+  text-transform: capitalize;
+  text-align: center;
+}
 .coursesCard .details .box {
   display: flex;
   align-items: center;
   color: grey;
 }
 
-.coursesCard .grid2{
-  grid-template-columns: repeat(1,1fr);
+.coursesCard .grid2 {
+  grid-template-columns: repeat(1, 1fr);
 }
 .coursesCard .details span {
   color: #234eac;
