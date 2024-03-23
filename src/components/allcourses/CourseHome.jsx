@@ -3,6 +3,7 @@ import Back from "../common/back/Back";
 import CoursesCard from "./CoursesCard";
 import Testimonal from "../home/testimonal/Testimonal";
 import AboutCard from "../about/AboutCard";
+import GoToTopButton from "../home/GoToTopButton";
 
 const CourseHome = () => {
   return (
@@ -10,7 +11,7 @@ const CourseHome = () => {
       <Back title="Explore Services" />
       <AboutCard />
       <Testimonal />
-      <CoursesCard />
+      <GoToTopButton/>
     </>
   );
 };

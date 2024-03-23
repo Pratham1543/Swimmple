@@ -18,7 +18,7 @@ const Pricing = () => {
   return (
     <>
       <Back title="Choose The Right Plan" />
-      <section className="price padding ">
+      <section className="price ">
         <div className="container">
           <div className="grid2 coursesCard">
             <div className="items">
@@ -93,6 +93,19 @@ const Pricing = () => {
                   <TableCell>30,000</TableCell>
                   <TableCell>80,000</TableCell>
                   <TableCell>150,000</TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell className="font-medium"></TableCell>
+                  <TableCell>
+                    <button className="primary-btn1">BUY NOW</button>
+                  </TableCell>
+                  <TableCell>
+                    <button className="primary-btn1">BUY NOW</button>
+                  </TableCell>
+                  <TableCell>
+                    <button className="primary-btn1">BUY NOW</button>
+                  </TableCell>
+                       
                 </TableRow>
               </TableBody>
             </Table>

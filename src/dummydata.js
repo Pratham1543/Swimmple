@@ -148,28 +148,28 @@ export const price = [
 ];
 export const faq = [
   {
-    title: "How to Enroll This Online Courses?",
-    desc: "This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "What is Swimple?",
+    desc: "Swimple is an innovative sports science lab based in India, specializing in swimming performance consulting and swim analytics systems.",
   },
   {
-    title: "Where It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "What services does Swimple offer?",
+    desc: " Swimple offers a range of services including swim performance analysis, personalized coaching, technique improvement programs, and the development of swim analytics systems tailored to individual needs.",
   },
   {
-    title: "How It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "How can Swimple help improve my swimming performance?",
+    desc: "   Swimple utilizes advanced data analytics and sport science techniques to analyze your swimming technique, identify areas for improvement, and provide personalized coaching and training plans to help you reach your full potential in the water.",
   },
   {
-    title: "How to Enroll This Online Courses?",
-    desc: "This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "Who can benefit from Swimple's services?",
+    desc: " Swimple's services are suitable for swimmers of all levels, from beginners to competitive athletes, as well as coaches and swimming teams looking to optimize performance and enhance training programs.",
   },
   {
-    title: "Where It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: " What sets Swimple apart from other swim coaching services?",
+    desc: "Swimple combines cutting-edge technology with expert knowledge in sports science to provide highly personalized and effective swim coaching and performance analysis. Our focus on data-driven insights and tailored training plans sets us apart in the field of swimming performance consulting.",
   },
   {
-    title: "How It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "How does Swimple collect data for swim performance analysis?",
+    desc: "   Swimple utilizes a variety of methods for data collection, including video analysis, biomechanical measurements, and performance tracking using wearable devices and sensors.",
   },
 ];
 export const blog = [

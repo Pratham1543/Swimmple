@@ -2,12 +2,23 @@
   height: auto;
   margin-top: 5%;
 }
-.listNames{
-  padding-left: 35%;
-  padding-bottom: 100px;
-  font-size: xx-large;
+.Listnames {
+  background-color: #0554ff1a; /* Change to your desired background color */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+  padding-left: 5%;
 }
 
+.Listnames .MuiListItem-root {
+  font-size: 20px; /* Change to your desired font size */
+  align-items: center;
+}
+
+.team .grid2 {
+  grid-template-columns: repeat(1, 1fr);
+}
 .flexS {
   display: flex;
   align-items: center;

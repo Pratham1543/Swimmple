@@ -13,14 +13,15 @@ import Eng from "@mui/icons-material/Engineering";
 import Science from "@mui/icons-material/Science";
 import Star from "@mui/icons-material/Star";
 import Open from "@mui/icons-material/OpenWith";
-
+import TeamCard from "../team/TeamCard";
+import "../team/team.css";
 const About = () => {
   return (
     <>
       <GoToTopButton />
       <Back title="About Us" />
       <Heading title="Who are we ?" />
-      <div className="listNames">
+      <div className=" Listnames">
         <List size="lg">
           <ListItem>
             <ListItemDecorator>
@@ -55,6 +56,31 @@ const About = () => {
         </List>
       </div>
       <Awrapper />
+      <section className="team padding">
+        <div className="container">
+          <div className="grid2 coursesCard">
+            <div className="items">
+              <div className="content flex">
+                <div className="text">
+                  <p>
+                    "Meet the dedicated individuals behind Swimple, each
+                    bringing a unique set of skills and expertise to drive
+                    innovation and excellence in sports science. Our team is
+                    committed to revolutionizing the way athletes train and
+                    perform, leveraging cutting-edge technology and a passion
+                    for sports to help athletes reach their full potential. Get
+                    to know the faces shaping the future of sports performance
+                    at Swimple."
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="grid">
+            <TeamCard />
+          </div>
+        </div>
+      </section>
     </>
   );
 };

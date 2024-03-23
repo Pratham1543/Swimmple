@@ -34,6 +34,7 @@ const Team = () => {
           </div>
         </div>
       </section>
+      
       <Awrapper />
       <GoToTopButton />
     </>
