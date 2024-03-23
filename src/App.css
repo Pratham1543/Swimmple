@@ -106,7 +106,9 @@ body {
   margin: auto;
   margin-bottom: 0px;
 }
-
+.details .desc {
+  display: none;
+}
 .heading {
   margin-bottom: 0px;
 }
@@ -312,13 +314,15 @@ p {
 
   .heading h1 {
     font-size: 5px;
+    line-height: 0%;
   }
 
   .back {
     padding-top: 25%;
-    padding-right: 0%;
+    padding-right: 5%;
+    padding-left: 5%;
   }
-
+  
   .grid,
   .grid2,
   .grid3,
@@ -375,7 +379,7 @@ p {
     text-transform: uppercase;
   }
   .back {
-    padding-top: 60%;
+    padding-top: 50%;
     text-align: center;
   }
 
