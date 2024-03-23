@@ -4,6 +4,7 @@ import "./price.css";
 import Faq from "./Faq";
 import "../allcourses/courses.css";
 import Heading from "../common/heading/Heading";
+import GoToTopButton from "../home/GoToTopButton";
 import {
   TableHead,
   TableRow,
@@ -99,6 +100,7 @@ const Pricing = () => {
         </div>
       </section>
       <Faq />
+      <GoToTopButton />
     </>
   );
 };

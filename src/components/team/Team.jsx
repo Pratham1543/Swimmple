@@ -3,6 +3,7 @@ import Back from "../common/back/Back";
 import TeamCard from "./TeamCard";
 import "./team.css";
 import Awrapper from "../about/Awrapper";
+import GoToTopButton from "../home/GoToTopButton";
 
 const Team = () => {
   return (
@@ -34,6 +35,7 @@ const Team = () => {
         </div>
       </section>
       <Awrapper />
+      <GoToTopButton />
     </>
   );
 };
