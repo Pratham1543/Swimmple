@@ -2,9 +2,6 @@ import React from "react"
 import "./about.css"
 import Back from "../common/back/Back"
 import AboutCard from "./AboutCard"
-<<<<<<< HEAD
-import GoToTopButton from "../home/GoToTopButton"
-=======
 import Awrapper from "./Awrapper"
 import List from '@mui/joy/List';
 import ListItem from '@mui/joy/ListItem';
@@ -17,16 +14,10 @@ import Star from '@mui/icons-material/Star';
 import Open from '@mui/icons-material/OpenWith';
 
 
->>>>>>> 0cea2bf63fea7accaeec786bac3402052d4e7dcb
 
 const About = () => {
   return (
     <>
-<<<<<<< HEAD
-      <Back title="About Us" />
-      <AboutCard />
-      <GoToTopButton />
-=======
       <Back title='About Us' />
       <Heading
             
@@ -54,7 +45,6 @@ const About = () => {
       </div>   
       <Awrapper/>
       
->>>>>>> 0cea2bf63fea7accaeec786bac3402052d4e7dcb
     </>
   );
 }
