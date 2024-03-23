@@ -53,6 +53,10 @@
   align-items: center;
   color: grey;
 }
+
+.coursesCard .grid2{
+  grid-template-columns: repeat(1,1fr);
+}
 .coursesCard .details span {
   color: #234eac;
   font-weight: 500;
