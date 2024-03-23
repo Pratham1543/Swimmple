@@ -3,7 +3,6 @@ import "./about.css"
 import Back from "../common/back/Back"
 import AboutCard from "./AboutCard"
 import GoToTopButton from "../home/GoToTopButton"
-
 import Awrapper from "./Awrapper"
 import List from '@mui/joy/List';
 import ListItem from '@mui/joy/ListItem';
@@ -17,11 +16,12 @@ import Open from '@mui/icons-material/OpenWith';
 
 
 
-
 const About = () => {
   return (
     <>
-
+      <Back title="About Us" />
+      <AboutCard />
+      <GoToTopButton />
       <Back title='About Us' />
       <Heading
             
@@ -49,7 +49,6 @@ const About = () => {
       </div>   
       <Awrapper/>
       
-
     </>
   );
 }
