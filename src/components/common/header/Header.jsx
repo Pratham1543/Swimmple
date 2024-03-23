@@ -7,14 +7,13 @@ const Header = () => {
   const [click, setClick] = useState(false);
 
   const handleClick = () => {
-    setClick(false); // Close the mobile navigation menu if open
+    setClick(false); // Close the mobile navigation menu
   };
 
   const handleSmoothScroll = (event, targetId) => {
-    event.preventDefault(); // Prevent the default click behavior
+    event.preventDefault();
     const targetElement = document.getElementById(targetId);
     if (targetElement) {
-      // Scroll smoothly to the target element
       targetElement.scrollIntoView({ behavior: "smooth", block: "start" });
     }
   };
@@ -25,19 +24,19 @@ const Header = () => {
       <header>
         <nav className="flexSB">
           <ul className={click ? "mobile-nav" : "flexSB"}>
-            <li>
+            <li onClick={handleClick}>
               <Link to="/">Home</Link>
             </li>
-            <li>
+            <li onClick={handleClick}>
               <Link to="/services">Services</Link>
             </li>
-            <li>
+            <li onClick={handleClick}>
               <Link to="/about">About</Link>
             </li>
-            <li>
+            <li onClick={handleClick}>
               <Link to="/pricing">Pricing</Link>
             </li>
-            <li>
+            <li onClick={handleClick}>
               <Link to="/contact">Contact</Link>
             </li>
           </ul>
