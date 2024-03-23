@@ -86,22 +86,26 @@ export const team = [
   {
     cover: "./images/team/t1.webp",
     name: "Sandeep K N",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    work2: "Seasoned Entrepreneur ",
+    work: "Sandeep is a seasoned entrepreneur with expertise in enterprise architecture and application integration. He co-gounded ventures like MonkeyBox, and SportingMindz, showcasing a versatile career spanning innovation and technology",
   },
   {
     cover: "./images/team/t2.webp",
     name: "Aditya Kariyappa",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    work2: "Sports Science Researcher ",
+    work: "Aditya Kariyappa, sports science researcher at Innosportlab, excels in biomechanical analysis of swimming techniques. His precision and technology-driven approach enhance swimmers' performance at all levels, shaping the sport's future.",
   },
   {
     cover: "./images/team/t3.webp",
     name: "Raghavendra Pai",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    work2: "Strategic Leader",
+    work: "Raghavendra is a strategic leader overseeing growth and analytics for Global company in Middle-East, With expertise in revenue growth, data analysis, and strategic planning, he ensures sustainable expansion and profitability while driving the program's expansion to new cities.",
   },
   {
     cover: "./images/team/t4.webp",
     name: "Jay Mehta",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    work2: "Strategic Leader",
+    work: "Jay Mehta, based in Gujarat, is an integral part of Shivranjani Construction Co. His role primarily involves securing deals for the company and overseeing projects related to electrical and optical fiber cable connectivity. His contributions are vital to the company's successs",
   },
 ];
 export const price = [
