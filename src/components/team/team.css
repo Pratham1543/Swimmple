@@ -43,16 +43,21 @@
   transition: 0.5s;
 }
 .team .items:hover {
-  background-color: #f7faff;
-  color: grey;
+  background-color: #234eac;
+  color: rgb(255, 255, 255);
   cursor: pointer;
+}
+
+.team .grid2:hover .items p {
+  background-color: #ffffff;
+  color: grey;
 }
 
 .team .items:hover .desc {
   display: flex;
 }
 .team .items:hover p {
-  color: grey;
+  color: rgb(255, 255, 255);
 }
 .team .items:hover .overlay {
   opacity: 1;
