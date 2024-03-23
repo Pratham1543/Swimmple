@@ -40,12 +40,16 @@
   transition: 0.5s;
 }
 .team .items:hover {
-  background-color: #234eac;
-  color: #fff;
+  background-color: #f7faff;
+  color: grey;
   cursor: pointer;
 }
+
+.team .items:hover .desc {
+  display: flex;
+}
 .team .items:hover p {
-  color: #fff;
+  color: grey;
 }
 .team .items:hover .overlay {
   opacity: 1;
