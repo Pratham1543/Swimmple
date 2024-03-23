@@ -2,6 +2,11 @@
   height: auto;
   margin-top: 5%;
 }
+.listNames{
+  padding-left: 35%;
+  padding-bottom: 100px;
+  font-size: xx-large;
+}
 
 .flexS {
   display: flex;
