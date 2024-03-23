@@ -191,17 +191,18 @@ p {
   background-image: url("../public/images/back.webp");
   background-size: cover;
   background-attachment: fixed;
-  position: absolute;
+  /*position: absolute;*/
   top: 0;
   left: 0;
-  z-index: -1;
+  z-index: -7;
   width: 100%;
-  height: 100vh;
-  padding-top: 30%;
+  height: 60vh;
+  padding-top: 10%;
   padding-right: 50px;
   color: #fff;
   text-align: center;
 }
+
 .back h1 {
   font-size: 100px;
   font-weight: 400;
@@ -314,7 +315,8 @@ p {
   }
 
   .back {
-    padding-top: 50%;
+    padding-top: 25%;
+    padding-right: 0%;
   }
 
   .grid,
@@ -362,9 +364,19 @@ p {
   .heading h1 {
     font-size: 10px;
   }
+  .back h1 {
+    font-size: 60px; /* Adjust font size for smaller screens */
+    text-align: center;
+  }
 
+  .back h2 {
+    font-weight: 500;
+    font-size: 14px; /* Adjust font size for smaller screens */
+    text-transform: uppercase;
+  }
   .back {
     padding-top: 60%;
+    text-align: center;
   }
 
   .grid,

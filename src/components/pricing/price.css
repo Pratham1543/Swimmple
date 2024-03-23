@@ -3,6 +3,11 @@
   text-align: left;
 }
 
+
+.price {
+  margin-top: 50px;
+}
+
 .price .pricc {
   display: flex;
   flex-direction: row;
